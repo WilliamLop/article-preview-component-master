@@ -113,8 +113,8 @@ body{
 }
 
 .share--active{
-    background-color: var(--VeryDarkGrayish);
-    color: #ECF1F7;
+    background-color: var(--LightGrayishBlue);
+    color: var(--VeryDarkGrayish);
 }
 
 .share:hover{
@@ -218,6 +218,10 @@ body{
         clip-path: polygon(0 27%, 100% 26%, 100% 75%, 74% 75%, 67% 98%, 61% 75%, 0% 75%);
         transition: clip-path .5s ease-in-out;
         border-radius: .5rem;
+    }
+    .share--active{
+        background-color: var(--VeryDarkGrayish);
+        color: #ECF1F7;
     }
 
 }
